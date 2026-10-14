@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mappelle privacy policy</title>
+<meta name="description" content="How the Mappelle iPhone app handles your data.">
+<style>
+  :root { --bg: #FBF6EE; --text: #2B2118; --muted: #7A6A5A; --card: #F1E7D8; --accent: #C8553D; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1C1814; --text: #F3EBDD; --muted: #B5A794; --card: #2A241E; --accent: #E07A5F; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: 34px; margin: 0 0 4px; }
+  h1 span { color: var(--accent); font-style: italic; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; }
+  .muted { color: var(--muted); }
+  .card { background: var(--card); border-radius: 14px; padding: 14px 18px; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--card); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Mappelle privacy policy</h1>
+<p class="muted">Last updated: 14 October 2026</p>
+
+<div class="card">
+  <p><strong>In short:</strong> Mappelle is a private app for keeping memories of places with your partner and friends. Your memories are seen only by the people you choose. There are no ads, no tracking, no analytics and no selling of data. You can delete your account and everything in it from the app at any time.</p>
+</div>
+
+<h2>Who is responsible</h2>
+<p>Mappelle is made and run by an independent developer, who is responsible for your data (the “controller” under the GDPR). Contact for anything about privacy: <a href="mailto:wego.app.service@gmail.com">wego.app.service@gmail.com</a>.</p>
+<p>Mappelle is currently in a test phase (Apple TestFlight) for a small, invited group. Accounts are created by the developer; there is no public sign-up.</p>
+
+<h2>What Mappelle stores and why</h2>
+<table>
+  <tr><th>Data</th><th>Why</th></tr>
+  <tr><td>Your email address and password (the password only as a secure, one-way hash)</td><td>To sign you in and to send “forgot password” codes</td></tr>
+  <tr><td>Your username and optional profile picture</td><td>So your partner and friends recognise you</td></tr>
+  <tr><td>Your connections (partner, friends) and requests you sent</td><td>To share memories with them</td></tr>
+  <tr><td>Your memories: place, date, title, notes, food and drinks, “try next time”, ratings, who was there, who may see it</td><td>This is the app itself</td></tr>
+  <tr><td>Your photos, and the date and location each photo was taken</td><td>To show them in your memories and on the map</td></tr>
+  <tr><td>Postcards, lists and in-app notifications</td><td>App features you use</td></tr>
+  <tr><td>A count of your place searches per day</td><td>To keep the daily search limit (protects against misuse and cost)</td></tr>
+</table>
+<p>We use this data only to provide Mappelle to you (GDPR Art. 6(1)(b), performance of our agreement with you) and to keep the service secure (Art. 6(1)(f), legitimate interest). We never use it for advertising or profiling.</p>
+
+<h2>Photos</h2>
+<ul>
+  <li>Before a photo leaves your phone, Mappelle reads its date and location and then makes a new, smaller copy (at most 1600 pixels). This removes all hidden information from the file, such as camera details and the exact GPS data inside it. Only the clean copy is uploaded.</li>
+  <li>The date and location are stored separately, so they can be shown on your map. People you only share a memory with never see each photo's location and time.</li>
+  <li>Photos are kept in private storage. They can only be opened through links that stop working after at most one hour, and only by people allowed to see that memory.</li>
+</ul>
+
+<h2>Your location</h2>
+<ul>
+  <li>Mappelle asks for your location only while you use the app (never in the background). It is used to centre the map, and once when you tap “I'm here”.</li>
+  <li>For “I'm here” and place search, your position (or the map's position) is sent to our server, which asks Google for nearby places. This position is not stored with your account. Google does not learn who you are from these searches.</li>
+</ul>
+
+<h2>Who can see your things</h2>
+<ul>
+  <li><strong>Your memories</strong> are seen only by the people who were there (who can also add to them) and, if you choose, by the connections you pick (view only). Nobody else, including other Mappelle users.</li>
+  <li>View-only people never see postcards, each photo's location and time, parts you hid, or the contributions of someone who was there and hasn't agreed to share them.</li>
+  <li><strong>Postcards</strong> are only for you and your partner.</li>
+  <li><strong>Lists</strong> are private unless you share one.</li>
+  <li><strong>Your profile</strong> is visible only to your connections, people who sent you a request, and people you share a memory with.</li>
+  <li>The developer can technically access the database to run the service, but does not look at your content in normal operation.</li>
+</ul>
+<p>These rules are enforced by the database itself, not only by the app, and are checked by hundreds of automated security tests.</p>
+
+<h2>On your phone</h2>
+<p>Your sign-in is kept in the iPhone Keychain. Memories and photos not yet uploaded (for example when you're offline), your last five place searches, your language choice and a cache of photos you've already seen are kept in the app's own storage. Signing out clears the loaded data and the photo cache.</p>
+
+<h2>Services we use</h2>
+<table>
+  <tr><th>Service</th><th>What it receives</th><th>Why</th></tr>
+  <tr><td>Supabase (servers in the EU)</td><td>All the data listed above; short-lived technical logs such as IP addresses</td><td>Database, sign-in, photo storage, server functions</td></tr>
+  <tr><td>Google Maps SDK (on your phone)</td><td>The map area shown, your device's internet address and technical usage and crash data, under <a href="https://policies.google.com/privacy">Google's privacy policy</a></td><td>Showing the map</td></tr>
+  <tr><td>Google Places (called from our server)</td><td>The search text and a map position; not who searched</td><td>Finding places</td></tr>
+  <tr><td>Gmail (Google)</td><td>Your email address and the reset code</td><td>Sending “forgot password” emails</td></tr>
+  <tr><td>Expo (EAS Update)</td><td>Your device's internet address, app version and an anonymous install identifier when the app checks for updates</td><td>Delivering app updates</td></tr>
+  <tr><td>Apple (TestFlight, App Store)</td><td>Usage and crash data under Apple's terms, if you allow it in your iPhone's settings</td><td>Distributing the app</td></tr>
+</table>
+<p>Google, Expo and Apple are based in the United States. Transfers are covered by the EU–US Data Privacy Framework and/or the European Commission's standard contractual clauses.</p>
+
+<h2>How long we keep data</h2>
+<ul>
+  <li>Your data is kept as long as you have an account.</li>
+  <li>A memory you delete goes to “Recently deleted” for 30 days and is then removed for good, with its photos.</li>
+  <li><strong>Delete my account</strong> (Settings → Delete my account) removes, right away and for good: your login, profile and picture, connections, the memories you created with all their photos and postcards (also for the people who were there), your photos, ratings and postcards in other people's memories, your lists, notifications and requests. Text you added to the notes of someone else's memory stays part of their memory.</li>
+  <li>Server logs are kept briefly by Supabase for security and then deleted.</li>
+</ul>
+
+<h2>Your rights</h2>
+<p>You can ask for a copy of your data, have it corrected, have it deleted (or do it yourself in the app), object to its use or ask for it to be restricted, and receive it in a portable format. Write to <a href="mailto:wego.app.service@gmail.com">wego.app.service@gmail.com</a>; we answer within one month. You can also complain to the data protection authority where you live.</p>
+
+<h2>Security</h2>
+<p>All connections are encrypted (HTTPS). Every table in the database has access rules that deny by default; files are in private storage with short-lived links; secret keys exist only on the server. No system is perfectly secure, but we take care to protect your data and to collect as little as possible.</p>
+
+<h2>Children</h2>
+<p>Mappelle is not meant for children under 16.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version is posted here with a new date. For important changes we also email the people who use Mappelle.</p>
+</main>
+</body>
+</html>
